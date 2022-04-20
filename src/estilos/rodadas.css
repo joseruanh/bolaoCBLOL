@@ -52,3 +52,39 @@ img.logo
 {
     width: 40px;
 }
+
+/* Responsividade */
+
+@media (max-width: 700px)
+{
+    div.inicio 
+    {
+        height: 150px;
+    }
+
+    div.jogos
+    {
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.rodada:hover
+    {
+        transform: scale(1.0);
+    }
+    ::-webkit-scrollbar
+    {
+        width: 2px;
+    }
+    ::-webkit-scrollbar-thumb
+    {
+        color: white;
+    }
+    ::-webkit-scrollbar-corner{
+        color: transparent;
+        width: 2px;
+    }
+
+}
