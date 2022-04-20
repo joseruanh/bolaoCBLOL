@@ -27,7 +27,8 @@ div.logo
 .botoes
 {
     text-decoration: none;
-    padding: 13px;
+    padding: 13px 0px;
+    margin-left: 7px;
     transition: 0.3s;
 }
 .botoes:hover
