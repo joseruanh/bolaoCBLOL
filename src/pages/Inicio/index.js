@@ -8,7 +8,7 @@ export default function Inicio(){
            <div className="main">
                <div className="veja">
                    <h1>Veja as Rodadas</h1>
-                   <Link to='/rodadas'><button className="botaoVER">Ver</button></Link>
+                   <Link to='/rodadas'><button className="botaoVER">Rodadas</button></Link>
                </div>
                <div></div>
            </div>
