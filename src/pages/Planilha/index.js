@@ -7,6 +7,11 @@ export default function Planilha(){
             <div className="topo">
 
             </div>
+            <div className="conteudo">
+                <h1>
+                    Planilha com pontuações etc
+                </h1>
+            </div>
         </main>
     );
 };
