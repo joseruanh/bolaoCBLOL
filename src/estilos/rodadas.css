@@ -1,0 +1,54 @@
+*{margin: 0; padding: 0;}
+
+div.inicio
+{
+    background-image: url(../images/rodadas.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+div.jogos
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+div.rodada
+{
+	padding: 5px;
+	width: 300px;
+	margin: 15px 10px;
+	transition: 0.3s;
+	cursor: pointer;
+
+	border: 1px solid var(--cor2);
+}
+div.rodada:hover
+{
+	transform: scale(1.1);
+}
+
+div.partida
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+div.titulo
+{
+    margin-left: 15px;
+}
+div.titulo > p
+{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+img.logo
+{
+    width: 40px;
+}

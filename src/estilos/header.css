@@ -1,0 +1,36 @@
+:root
+{
+    --cor1: rgb(0, 0, 31);
+	--cor2: rgb(130, 27, 27);
+	--cor3: rgb(193, 61, 61);
+}
+
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid var(--cor7);
+}
+
+div.logo
+{
+    margin-left: 10px;
+}
+.inicio
+{
+    text-decoration: none;
+    font-size: 20px;
+}   
+.botoes
+{
+    text-decoration: none;
+    padding: 13px;
+    transition: 0.3s;
+}
+.botoes:hover
+{
+    background-color: var(--cor2);
+}

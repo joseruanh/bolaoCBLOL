@@ -1,0 +1,49 @@
+:root
+{
+  --cor1: #2C0AA6;
+  --cor2: #1E0D8C;
+  --cor3: #6907F2;
+  --cor4: #DCE6F2;
+  --cor5: #9904D9;
+
+	--cor6: rgb(0, 0, 31);
+	--cor7: rgb(130, 27, 27);
+	--cor8: rgb(193, 61, 61);
+}
+main
+{
+    width: 100%;
+}
+.botaoVER
+{
+    width: 100px;
+    padding: 10px;
+    background-color: var(--cor7);
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.botaoVER:hover
+{
+    background-color: var(--cor8);
+}
+
+div.main
+{
+    background-image: url(../images/img1.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+div.veja
+{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
