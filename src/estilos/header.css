@@ -5,6 +5,7 @@
 	--cor3: rgb(193, 61, 61);
 }
 
+
 header
 {
     width: 100%;
@@ -28,10 +29,23 @@ div.logo
 {
     text-decoration: none;
     padding: 13px 0px;
-    margin-left: 7px;
     transition: 0.3s;
 }
 .botoes:hover
 {
     background-color: var(--cor2);
+}
+
+@media (max-width: 700px)
+{
+    div.rotas
+    {
+
+    }
+
+    .botoes
+    {
+        font-size: 13px;
+        padding: 16px 5px 15px 5px;
+    }
 }
