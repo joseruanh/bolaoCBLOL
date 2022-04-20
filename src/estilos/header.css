@@ -28,7 +28,7 @@ div.logo
 .botoes
 {
     text-decoration: none;
-    padding: 13px 0px;
+    padding: 13px 0px 13px 7px;
     transition: 0.3s;
 }
 .botoes:hover
@@ -38,11 +38,6 @@ div.logo
 
 @media (max-width: 700px)
 {
-    div.rotas
-    {
-
-    }
-
     .botoes
     {
         font-size: 13px;
