@@ -1,14 +1,11 @@
 :root
 {
-  --cor1: #2C0AA6;
-  --cor2: #1E0D8C;
-  --cor3: #6907F2;
-  --cor4: #DCE6F2;
-  --cor5: #9904D9;
+ 
 
-	--cor6: rgb(0, 0, 31);
-	--cor7: rgb(130, 27, 27);
-	--cor8: rgb(193, 61, 61);
+	--cor1: rgb(0, 0, 31);
+	--cor2: rgb(130, 27, 27);
+	--cor3: rgb(193, 61, 61);
+    --cor4: #DCE6F2;
 }
 main
 {
@@ -18,7 +15,7 @@ main
 {
     width: 100px;
     padding: 10px;
-    background-color: var(--cor7);
+    background-color: var(--cor2);
     border: none;
     font-size: 15px;
     cursor: pointer;
@@ -26,7 +23,7 @@ main
 }
 .botaoVER:hover
 {
-    background-color: var(--cor8);
+    background-color: var(--cor3);
 }
 
 div.main
@@ -47,6 +44,28 @@ div.veja
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
+}
+
+div.noticia
+{
+    padding-top: 30px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+img#painIMG
+{
+    width: 80%;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 10px solid var(--cor2);
+}
+
+p.tituloNoticia
+{
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 /* Responsivo */
@@ -73,10 +92,22 @@ div.veja
     {
         width: 70px;
         padding: 10px;
-        background-color: var(--cor7);
+        background-color: var(--cor2);
         border: none;
         font-size: 12px;
         cursor: pointer;
         transition: 0.3s;
+    }
+
+    img#painIMG
+    {
+        width: 100%;
+        border-bottom: 5px solid var(--cor2);
+    }
+
+    p.tituloNoticia
+    {
+        font-weight: bolder;
+        font-size: 14px;
     }
 }
