@@ -5,6 +5,71 @@ div.principal
     background-position: center center;
     height: 250px;
 }
+div.botoesClassificacao
+{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+button.botaoClassificacao1, button.botaoClassificacao2
+{
+    background-color: transparent;
+    border: none;
+    padding: 5px 100px;
+    margin-left: 5px; margin-right: 5px;
+    border: 2px solid var(--cor2);
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+}
+button.botaoClassificacao1:hover
+{
+    background-color: var(--cor2);
+    box-shadow: -10px 10px rgb(255, 255, 255);
+}
+button.botaoClassificacao2:hover
+{
+    background-color: var(--cor2);
+    box-shadow: 10px 10px var(--cor4);
+}
+
+div.tabelaDeClassificacao
+{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+td
+{
+    border: 2px solid var(--cor2);
+}
+img.logoCLASSIFICACAO
+{
+    width: 50px;
+}
+tr.time
+{
+    transition: 0.3s;
+    cursor: pointer;
+}
+tr.time:hover{
+    transform: scale(1.05);
+}
+td.destaque1
+{
+    width: 33%;
+    font-size: 24px;
+}
 
 /* Responsividade */
 
@@ -13,5 +78,13 @@ div.principal
     div.principal
     {
         height: 150px;
+    }
+    button.botaoClassificacao1, button.botaoClassificacao2
+    {
+        padding: 5px 50px;
+    }
+    td.destaque1
+    {
+        padding: 2px 10px;
     }
 }

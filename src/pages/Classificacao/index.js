@@ -1,14 +1,93 @@
 import React from "react";
-import '../../estilos/classificacao.css'
+import '../../estilos/classificacao.css';
+import fla from '../Rodadas/logos/fla.png';
+import fur from '../Rodadas/logos/fur.png';
+import itz from '../Rodadas/logos/itz.png';
+import kbm from '../Rodadas/logos/kbm.png';
+import lib from '../Rodadas/logos/lib.png';
+import lll from '../Rodadas/logos/lll.png';
+import net from '../Rodadas/logos/net.png';
+import png from '../Rodadas/logos/png.png';
+import red from '../Rodadas/logos/red.png';
+import rng from '../Rodadas/logos/rng.png';
 
 export default function Classificacao(){
+    const primeiro = {nome: 'Jean', pontos: 0, posicao: 1}
+    const segundo = {nome: 'Pickles', pontos: 0, posicao: 1}
+    const terceiro = {nome: 'Relâmpago', pontos: 0, posicao: 1}
+    const quarto = {nome: 'Ruanh', pontos: 0, posicao: 1}
+    const quinto = {nome: 'Brener', pontos: 0, posicao: 1}
+    const sexto = {nome: 'Kennyd', pontos: 0, posicao: 1}
+    const setimo = {nome: 'Ademiro', pontos: 0, posicao: 1}
+    const oitavo = {nome: 'Victor', pontos: 0, posicao: 1}
+
+    function cblol(){
+        let a = window.document.getElementById('mostraTabela')
+        a.innerHTML = `
+        <table class="tabelaCBLOL">
+            <tr class="time">
+                <td class="destaque1">1</td><td> <img src="${fla}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+            </tr>
+            <tr class="time">
+                <td class="destaque1">1</td><td> <img src="${fur}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+            </tr>
+            <tr class="time">
+                <td class="destaque1">1</td><td> <img src="${itz}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+            </tr>
+            <tr class="time">
+                <td class="destaque1">1</td><td> <img src="${kbm}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+            </tr>
+            <tr class="time">
+                <td class="destaque1">1</td><td> <img src="${lib}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+            </tr>
+            <tr class="time">
+                <td class="destaque1">1</td><td> <img src="${lll}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+            </tr>
+            <tr class="time">
+                <td class="destaque1">1</td><td> <img src="${net}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+            </tr>
+            <tr class="time">
+                <td class="destaque1">1</td><td> <img src="${png}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+            </tr>
+            <tr class="time">
+                <td class="destaque1">1</td><td> <img src="${red}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+            </tr>
+            <tr class="time">
+                <td class="destaque1">1</td><td> <img src="${rng}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+            </tr>
+        </table>
+        `
+    }
+    function bolao(){
+        let a = window.document.getElementById('mostraTabela')
+        a.innerHTML = `
+        <h1>Logo logo</h1>
+        `
+    }
+
+    
+
     return(
         <main>
             <div className="principal"></div>
             <div className="conteudo">
                 <h1>
-                    Classificação CBLOL e Bolão etc
+                    Classificação CBLOL e Bolão
                 </h1>
+                <div className="tabelaCla">
+                    <div className="botoesClassificacao">
+                        <button className="botaoClassificacao1" onClick={cblol}>
+                            CBLOL
+                        </button>
+                        <button className="botaoClassificacao2" onClick={bolao}>
+                            BOLÃO
+                        </button>
+                    </div>
+                    <div className="tabelaDeClassificacao" id='mostraTabela'>
+
+                    </div>
+
+                </div>
             </div>
         </main>
     );

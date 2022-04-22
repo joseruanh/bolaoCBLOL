@@ -1,3 +1,5 @@
+::-webkit-scrollbar{width: 2px;}::-webkit-scrollbar-thumb{background-color: var(--cor2);}
+
 div.topo
 {
     background-image: url(../images/planilha.jpg);
@@ -5,6 +7,46 @@ div.topo
     background-position: top center;
     height: 250px;
 }
+
+div.conteudo
+{
+    width: 90%;
+    margin: auto;
+}
+div.planilha
+{
+    width: 100%;
+}
+div.pRodada
+{
+    width: 90%;
+    margin: auto;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+div.pRodada:hover
+{
+    transform: scale(1.05);
+}
+table.tabelaPLANILHA
+{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    border: 1px solid var(--cor2);
+}
+td.destaque
+{
+    border: 2px solid var(--cor2);
+    font-size: 20px;
+    font-weight: bolder;
+}
+table.tabelaPLANILHA > td
+{
+    border-right: 3px solid var(--cor2);
+}
+#win{color: rgb(19, 110, 19);} #loss{color: rgb(145, 0, 0);}
 
 /* Responsividade */
 
@@ -18,5 +60,13 @@ div.topo
     div.conteudo > h1
     {
         font-size: 1.5em;
+    }
+    td
+    {
+        font-size: 14px;
+    }
+    td.destaque
+    {
+        font-size: 15px;
     }
 }
