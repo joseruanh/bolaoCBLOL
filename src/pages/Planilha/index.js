@@ -25,28 +25,28 @@ export default function Planilha(){
                             <p>Rodada 1</p>
                             <table className="tabelaPLANILHA">
                                 <tr>
-                                    <td className="destaque">{primeiro.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {primeiro.pontos1}</td>
+                                    <td className="destaque">{primeiro.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {primeiro.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{segundo.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {segundo.pontos1}</td>
+                                    <td className="destaque">{segundo.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {segundo.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{terceiro.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {terceiro.pontos1}</td>
+                                    <td className="destaque">{terceiro.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {terceiro.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quarto.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {quarto.pontos1}</td>
+                                    <td className="destaque">{quarto.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {quarto.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quinto.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {quinto.pontos1}</td>
+                                    <td className="destaque">{quinto.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {quinto.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{sexto.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {sexto.pontos1}</td>
+                                    <td className="destaque">{sexto.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {sexto.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{setimo.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {setimo.pontos1}</td>
+                                    <td className="destaque">{setimo.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {setimo.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{oitavo.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {oitavo.pontos1}</td>
+                                    <td className="destaque">{oitavo.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {oitavo.pontos1}</td>
                                 </tr>
                             </table>
                         </div>
@@ -57,28 +57,28 @@ export default function Planilha(){
                             <p>Rodada 2</p>
                             <table className="tabelaPLANILHA">
                                 <tr>
-                                    <td className="destaque">{primeiro.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {primeiro.pontos2}</td>
+                                    <td className="destaque">{primeiro.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {primeiro.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{segundo.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {segundo.pontos2}</td>
+                                    <td className="destaque">{segundo.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {segundo.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{terceiro.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {terceiro.pontos2}</td>
+                                    <td className="destaque">{terceiro.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {terceiro.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quarto.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {quarto.pontos2}</td>
+                                    <td className="destaque">{quarto.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {quarto.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quinto.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {quinto.pontos2}</td>
+                                    <td className="destaque">{quinto.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {quinto.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{sexto.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {sexto.pontos2}</td>
+                                    <td className="destaque">{sexto.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {sexto.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{setimo.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {setimo.pontos2}</td>
+                                    <td className="destaque">{setimo.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {setimo.pontos1}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{oitavo.nome}</td><td>jogo1</td><td>jogo2</td><td>jogo3</td><td>jogo4</td><td>jogo5</td><td className="destaque">Pontos: {oitavo.pontos2}</td>
+                                    <td className="destaque">{oitavo.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {oitavo.pontos1}</td>
                                 </tr>
                             </table>
                         </div>

@@ -63,10 +63,11 @@ table.tabelaPLANILHA > td
     }
     td
     {
-        font-size: 14px;
+        padding: 0px 1px 0px 1px;
+        font-size: 12px;
     }
     td.destaque
     {
-        font-size: 15px;
+        font-size: 13px;
     }
 }
