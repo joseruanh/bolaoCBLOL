@@ -61,7 +61,43 @@ export default function Classificacao(){
     function bolao(){
         let a = window.document.getElementById('mostraTabela')
         a.innerHTML = `
-        <h1>Logo logo</h1>
+
+        <table class="tabelaCBLOL">
+
+        <tr class="time">
+            <td> ${primeiro.posicao} </td> <td> ${primeiro.nome} </td> <td> Pontos: ${primeiro.pontos} </td>
+        </tr>
+
+        <tr class="time">
+            <td> ${segundo.posicao} </td> <td> ${segundo.nome} </td> <td> Pontos: ${segundo.pontos} </td>
+        </tr>
+
+        <tr class="time">
+            <td> ${terceiro.posicao} </td> <td> ${terceiro.nome} </td> <td> Pontos: ${terceiro.pontos} </td>
+        </tr>
+
+        <tr class="time">
+            <td> ${quarto.posicao} </td> <td> ${quarto.nome} </td> <td> Pontos: ${quarto.pontos} </td>
+        </tr>
+
+        <tr class="time">
+            <td> ${quinto.posicao} </td> <td> ${quinto.nome} </td> <td> Pontos: ${quinto.pontos} </td>
+        </tr>
+
+        <tr class="time">
+            <td> ${sexto.posicao} </td> <td> ${sexto.nome} </td> <td> Pontos: ${primeiro.pontos} </td>
+        </tr>
+
+        <tr class="time">
+            <td> ${setimo.posicao} </td> <td> ${setimo.nome} </td> <td> Pontos: ${setimo.pontos} </td>
+        </tr>
+
+        <tr class="time">
+            <td> ${oitavo.posicao} </td> <td> ${oitavo.nome} </td> <td> Pontos: ${oitavo.pontos} </td>
+        </tr>
+
+        </table>
+        
         `
     }
 
