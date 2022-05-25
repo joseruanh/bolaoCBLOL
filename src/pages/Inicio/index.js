@@ -15,10 +15,10 @@ export default function Inicio(){
            </div>
            <div className="noticia">
                     <p className="tituloNoticia">
-                        'Time' ganhador do primeiro split se prepara para o MSI
+                        Red Canids vence primeiro split do cbloiros
                     </p>
-                    <img src={png} id="painIMG" />
-               </div>
+                    <iframe src="https://www.youtube.com/embed/HHUbMlMsq48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </main>
     );
 };

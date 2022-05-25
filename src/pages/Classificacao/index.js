@@ -65,7 +65,7 @@ export default function Classificacao(){
         <table class="tabelaCBLOL">
 
         <tr class="time">
-            <td> ${primeiro.posicao} </td> <td> ${primeiro.nome} </td> <td> Pontos: ${primeiro.pontos} </td>
+            <td class="classifi"> ${primeiro.posicao} </td> <td> ${primeiro.nome} </td> <td> Pontos: ${primeiro.pontos} </td>
         </tr>
 
         <tr class="time">
