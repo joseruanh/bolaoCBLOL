@@ -67,17 +67,22 @@ p.tituloNoticia
     font-weight: bolder;
     font-size: 20px;
 }
+div.video
+{
+    width: 100%;
+}
 
 iframe
 {
-    width: 1000px;
-    height: 561px;
+    width: 72%;
+    height: 600px;
+    background-color: var(--cor1);
     border-radius: 10px;
     border-bottom: 10px solid var(--cor2);
     transition: 0.3s;
 }
 
-img#rng
+img#rng, img#red
 {
     width: 70%;
     transition: 0.3s;
@@ -85,7 +90,7 @@ img#rng
     cursor: pointer;
     border-radius: 10px;
 }
-img#rng:hover
+img#rng:hover, img#red:hover
 {
     transform: scale(1.02);
 }
@@ -122,7 +127,7 @@ img#lolesports:hover, img#youtube:hover, img#instagram:hover
 
 /* Responsivo */
 
-@media (max-width: 940px)
+@media (max-width: 700px)
 {
     div.main
     {
@@ -169,7 +174,7 @@ img#lolesports:hover, img#youtube:hover, img#instagram:hover
         height: 315px;
     }
 
-    img#rng
+    img#rng, img#red
     {
         width: 90%;
     }

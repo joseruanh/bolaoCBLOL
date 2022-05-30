@@ -5,6 +5,7 @@ import rng from '../../images/rng-champs.jpg'
 import lol from '../../images/lolesports.jpg'
 import yt from '../../images/yt.png'
 import insta from '../../images/insta.webp'
+import red from '../../images/red.jpg'
 
 export default function Inicio(){
     return(
@@ -28,7 +29,7 @@ export default function Inicio(){
                     <p className="tituloNoticia">
                         Red Canids vence primeiro split do cbloiros
                     </p>
-                    <iframe src="https://www.youtube.com/embed/HHUbMlMsq48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <img src={red} id="red"/>
             </div>
 
             <div className="footer">
@@ -41,8 +42,6 @@ export default function Inicio(){
                 <div className="footerdiv">
                     <a href="https://www.instagram.com/lolesportsbr/" target="_blank"><img src={insta} id="instagram" /></a>
                 </div>
-
-
             </div>
         </main>
     );
