@@ -34,6 +34,10 @@ export default function Inicio(){
 
             <div className="footer">
                 <div className="footerdiv">
+                    <p>Redes sociais lolEsportsBr:</p>
+                </div>
+
+                <div className="footerdiv">
                     <a href="https://lolesports.com/" target="_blank"><img src={lol} id="lolesports" /></a>
                 </div>
                 <div className="footerdiv">

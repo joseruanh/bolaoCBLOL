@@ -102,12 +102,12 @@ div.footer
     justify-content: center;
     align-items: center;
     padding: 50px 0px;
-    background-color: rgb(0, 0, 20);
+    background-color: rgb(0, 0, 17);
 }
 div.footerdiv
 {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin: 10px 50px;
     overflow: hidden;
     display: flex;
