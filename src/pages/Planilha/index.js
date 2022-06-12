@@ -82,10 +82,10 @@ export default function Planilha(){
                                     <td className="destaque">{setimo.nome}</td><td>FUR</td><td>KBM</td><td>RED</td><td>NET</td><td>PNG</td><td className="destaque">Pontos: {setimo.pontos2}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{oitavo.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {oitavo.pontos2}</td>
+                                    <td className="destaque">{oitavo.nome}</td><td>-</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {oitavo.pontos2}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{nono.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {nono.pontos2}</td>
+                                    <td className="destaque">{nono.nome}</td><td>FUR</td><td>KBM</td><td>RED</td><td>ITZ</td><td>PNG</td><td className="destaque">Pontos: {nono.pontos2}</td>
                                 </tr>
                             </table>
                         </div>
