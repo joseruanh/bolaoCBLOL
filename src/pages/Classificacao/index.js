@@ -12,48 +12,48 @@ import red from '../Rodadas/logos/red.png';
 import rng from '../Rodadas/logos/rng.png';
 
 export default function Classificacao(){
-    const primeiro = {nome: 'Jean', pontos: 0, posicao: 1}
-    const segundo = {nome: 'Pickles', pontos: 0, posicao: 1}
-    const terceiro = {nome: 'Relâmpago', pontos: 0, posicao: 1}
-    const quarto = {nome: 'Ruanh', pontos: 0, posicao: 1}
-    const quinto = {nome: 'Brener', pontos: 0, posicao: 1}
-    const sexto = {nome: 'Kennyd', pontos: 0, posicao: 1}
-    const setimo = {nome: 'Ademiro', pontos: 0, posicao: 1}
-    const oitavo = {nome: 'Victor', pontos: 0, posicao: 1}
+    const primeiro = {nome: 'Jean', pontos: 4, posicao: 1}
+    const segundo = {nome: 'Pickles', pontos: 4, posicao: 1}
+    const terceiro = {nome: 'Brener', pontos: 4, posicao: 1}
+    const quarto = {nome: 'Relâmpago', pontos: 3, posicao: 2}
+    const quinto = {nome: 'Ruanh', pontos: 3, posicao: 2}
+    const sexto = {nome: 'Kennyd', pontos: 2, posicao: 3}
+    const setimo = {nome: 'Ademiro', pontos: 2, posicao: 3}
+    const oitavo = {nome: 'Tony', pontos: 2, posicao: 3}
 
     function cblol(){
         let a = window.document.getElementById('mostraTabela')
         a.innerHTML = `
         <table class="tabelaCBLOL">
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${fla}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+                <td class="destaque1">1</td><td> <img src="${fur}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 0D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${fur}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+                <td class="destaque1">1</td><td> <img src="${lll}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 0D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${itz}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+                <td class="destaque1">1</td><td> <img src="${itz}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 0D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${kbm}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+                <td class="destaque1">1</td><td> <img src="${red}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 0D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${lib}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+                <td class="destaque1">1</td><td> <img src="${lib}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 0D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${lll}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+                <td class="destaque1">6</td><td> <img src="${fla}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 1D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${net}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+                <td class="destaque1">6</td><td> <img src="${rng}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 1D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${png}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+                <td class="destaque1">6</td><td> <img src="${net}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 1D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${red}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+                <td class="destaque1">6</td><td> <img src="${png}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 1D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${rng}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 0D</td>
+                <td class="destaque1">6</td><td> <img src="${kbm}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 1D</td>
             </tr>
         </table>
         `
@@ -85,7 +85,7 @@ export default function Classificacao(){
         </tr>
 
         <tr class="time">
-            <td> ${sexto.posicao} </td> <td> ${sexto.nome} </td> <td> Pontos: ${primeiro.pontos} </td>
+            <td> ${sexto.posicao} </td> <td> ${sexto.nome} </td> <td> Pontos: ${sexto.pontos} </td>
         </tr>
 
         <tr class="time">
