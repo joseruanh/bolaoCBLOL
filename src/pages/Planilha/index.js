@@ -67,16 +67,16 @@ export default function Planilha(){
                                     <td className="destaque">{segundo.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {segundo.pontos2}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{terceiro.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {terceiro.pontos2}</td>
+                                    <td className="destaque">{terceiro.nome}</td><td>FUR</td><td>KBM</td><td>RED</td><td>ITZ</td><td>LLL</td><td className="destaque">Pontos: {terceiro.pontos2}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quarto.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {quarto.pontos2}</td>
+                                    <td className="destaque">{quarto.nome}</td><td>FUR</td><td>KBM</td><td>RED</td><td>ITZ</td><td>PNG</td><td className="destaque">Pontos: {quarto.pontos2}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{quinto.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {quinto.pontos2}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{sexto.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {sexto.pontos2}</td>
+                                    <td className="destaque">{sexto.nome}</td><td>FUR</td><td>KBM</td><td>RED</td><td>ITZ</td><td>PNG</td><td className="destaque">Pontos: {sexto.pontos2}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{setimo.nome}</td><td>pt1</td><td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td><td className="destaque">Pontos: {setimo.pontos2}</td>
