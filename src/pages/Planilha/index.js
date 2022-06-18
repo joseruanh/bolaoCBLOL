@@ -3,7 +3,7 @@ import '../../estilos/planilha.css'
 
 export default function Planilha(){
     const primeiro = {nome: 'Jean', pontos1: 4, pontos2: 3, pontos3: 0, pontos4: 0}
-    const segundo = {nome: 'Pickles', pontos1: 4, pontos2: 3, pontos3: 0, pontos4: 1}
+    const segundo = {nome: 'Pickles', pontos1: 4, pontos2: 3, pontos3: 1, pontos4: 0}
     const terceiro = {nome: 'Relâmpago', pontos1: 3, pontos2: 3, pontos3: 0, pontos4: 0}
     const quarto = {nome: 'Ruanh', pontos1: 3, pontos2: 4, pontos3: 0, pontos4: 0}
     const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1, pontos3: 0, pontos4: 0}
