@@ -2,15 +2,15 @@ import React from "react";
 import '../../estilos/planilha.css'
 
 export default function Planilha(){
-    const primeiro = {nome: 'Jean', pontos1: 4, pontos2: 3}
-    const segundo = {nome: 'Pickles', pontos1: 4, pontos2: 3}
-    const terceiro = {nome: 'Relâmpago', pontos1: 3, pontos2: 3}
-    const quarto = {nome: 'Ruanh', pontos1: 3, pontos2: 4}
-    const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1}
-    const sexto = {nome: 'Kennyd', pontos1: 2, pontos2: 4}
-    const setimo = {nome: 'Ademiro', pontos1: 2, pontos2: 5}
-    const oitavo = {nome: 'Victor', pontos1: 0, pontos2: 0}
-    const nono = {nome: 'Tony', pontos1: 2, pontos2: 4}
+    const primeiro = {nome: 'Jean', pontos1: 4, pontos2: 3, pontos3: 0, pontos4: 0}
+    const segundo = {nome: 'Pickles', pontos1: 4, pontos2: 3, pontos3: 0, pontos4: 0}
+    const terceiro = {nome: 'Relâmpago', pontos1: 3, pontos2: 3, pontos3: 0, pontos4: 0}
+    const quarto = {nome: 'Ruanh', pontos1: 3, pontos2: 4, pontos3: 0, pontos4: 0}
+    const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1, pontos3: 0, pontos4: 0}
+    const sexto = {nome: 'Kennyd', pontos1: 2, pontos2: 4, pontos3: 0, pontos4: 0}
+    const setimo = {nome: 'Ademiro', pontos1: 2, pontos2: 5, pontos3: 0, pontos4: 0}
+    const oitavo = {nome: 'Victor', pontos1: 0, pontos2: 0, pontos3: 0, pontos4: 0}
+    const nono = {nome: 'Tony', pontos1: 2, pontos2: 4, pontos3: 0, pontos4: 0}
 
     return(
         <main>
@@ -90,6 +90,85 @@ export default function Planilha(){
                             </table>
                         </div>
                     </div>
+
+                    <div className="pRodada">
+                        <div>
+                            <p>Rodada 3</p>
+                            <table className="tabelaPLANILHA">
+                                <tr>
+                                    <td className="destaque">{primeiro.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {primeiro.pontos3}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{segundo.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {segundo.pontos3}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{terceiro.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {terceiro.pontos3}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{quarto.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {quarto.pontos3}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{quinto.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {quinto.pontos3}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{sexto.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {sexto.pontos3}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{setimo.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {setimo.pontos3}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{oitavo.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {oitavo.pontos3}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{nono.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {nono.pontos3}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div className="pRodada">
+                        <div>
+                            <p>Rodada 4</p>
+                            <table className="tabelaPLANILHA">
+                                <tr>
+                                    <td className="destaque">{primeiro.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {primeiro.pontos4}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{segundo.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {segundo.pontos4}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{terceiro.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {terceiro.pontos4}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{quarto.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {quarto.pontos4}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{quinto.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {quinto.pontos4}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{sexto.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {sexto.pontos4}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{setimo.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {setimo.pontos4}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{oitavo.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {oitavo.pontos4}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{nono.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {nono.pontos4}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
         </main>
