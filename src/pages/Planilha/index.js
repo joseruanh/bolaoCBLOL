@@ -111,16 +111,16 @@ export default function Planilha(){
                                     <td className="destaque">{quinto.nome}</td> <td>LLL</td> <td>FUR</td> <td>FLA</td> <td>RED</td> <td>RNG</td> <td className="destaque">Pontos: {quinto.pontos3}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{sexto.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {sexto.pontos3}</td>
+                                    <td className="destaque">{sexto.nome}</td> <td>LLL</td> <td>FUR</td> <td>LIB</td> <td>RED</td> <td>PNG</td> <td className="destaque">Pontos: {sexto.pontos3}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{setimo.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {setimo.pontos3}</td>
+                                    <td className="destaque">{setimo.nome}</td> <td>-</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {setimo.pontos3}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{oitavo.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {oitavo.pontos3}</td>
+                                    <td className="destaque">{oitavo.nome}</td> <td>-</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {oitavo.pontos3}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{nono.nome}</td> <td>PT1</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {nono.pontos3}</td>
+                                    <td className="destaque">{nono.nome}</td> <td>-</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {nono.pontos3}</td>
                                 </tr>
                             </table>
                         </div>
