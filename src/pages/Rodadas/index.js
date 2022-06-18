@@ -96,9 +96,9 @@ export default function Rodadas(){
                     <p>rodada 3</p>
 
                     <div className="partida">
-                        <div> <img src={lll} className="logo"/> </div>
+                        <div> <img src={lll} className="logo"/>&#10062;</div>
                         <div> <img src={vs} className="logo" /> </div>
-                        <div> <img src={kbm} className="logo" /> </div>
+                        <div>&#10062;<img src={kbm} className="logo" /> </div>
                     </div>
 
                     <div className="partida">

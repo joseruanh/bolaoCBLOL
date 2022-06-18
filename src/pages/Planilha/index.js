@@ -3,7 +3,7 @@ import '../../estilos/planilha.css'
 
 export default function Planilha(){
     const primeiro = {nome: 'Jean', pontos1: 4, pontos2: 3, pontos3: 0, pontos4: 0}
-    const segundo = {nome: 'Pickles', pontos1: 4, pontos2: 3, pontos3: 0, pontos4: 0}
+    const segundo = {nome: 'Pickles', pontos1: 4, pontos2: 3, pontos3: 0, pontos4: 1}
     const terceiro = {nome: 'Relâmpago', pontos1: 3, pontos2: 3, pontos3: 0, pontos4: 0}
     const quarto = {nome: 'Ruanh', pontos1: 3, pontos2: 4, pontos3: 0, pontos4: 0}
     const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1, pontos3: 0, pontos4: 0}
@@ -99,7 +99,7 @@ export default function Planilha(){
                                     <td className="destaque">{primeiro.nome}</td> <td>LLL</td> <td>FUR</td> <td>LIB</td> <td>RED</td> <td>PNG</td> <td className="destaque">Pontos: {primeiro.pontos3}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{segundo.nome}</td> <td>KBM</td> <td>FUR</td> <td>LIB</td> <td>RED</td> <td>PNG</td> <td className="destaque">Pontos: {segundo.pontos3}</td>
+                                    <td className="destaque">{segundo.nome}</td> <td id="win">KBM</td> <td>FUR</td> <td>LIB</td> <td>RED</td> <td>PNG</td> <td className="destaque">Pontos: {segundo.pontos3}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{terceiro.nome}</td> <td>LLL</td> <td>FUR</td> <td>LIB</td> <td>RED</td> <td>PNG</td> <td className="destaque">Pontos: {terceiro.pontos3}</td>
