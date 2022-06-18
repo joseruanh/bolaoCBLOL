@@ -13,7 +13,14 @@ export default function Planilha(){
     const nono = {nome: 'Tony', pontos1: 2, pontos2: 4, pontos3: 0, pontos4: 0}
 
     var jean = primeiro.pontos1 + primeiro.pontos2 + primeiro.pontos3 + primeiro.pontos4;
-
+    var pickles = segundo.pontos1 + segundo.pontos2 + segundo.pontos3 + segundo.pontos4;
+    var relampago = terceiro.pontos1 + terceiro.pontos2 + terceiro.pontos3 + terceiro.pontos4;
+    var ruanh = quarto.pontos1 + quarto.pontos2 + quarto.pontos3 + quarto.pontos4;
+    var brener = quinto.pontos1 + quinto.pontos2 + quinto.pontos3 + quinto.pontos4;
+    var kennyd = sexto.pontos1 + sexto.pontos2 + sexto.pontos3 + sexto.pontos4;
+    var ademiro = setimo.pontos1 + setimo.pontos2 + setimo.pontos3 + setimo.pontos4;
+    var victor = oitavo.pontos1 + oitavo.pontos2 + oitavo.pontos3 + oitavo.pontos4;
+    var tony = nono.pontos1 + nono.pontos2 + nono.pontos3 + nono.pontos4;
 
     return(
         <main>
