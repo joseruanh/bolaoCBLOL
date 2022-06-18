@@ -2,12 +2,12 @@ import React from "react";
 import '../../estilos/planilha.css'
 
 export default function Planilha(){
-    const primeiro = {nome: 'Jean', pontos1: 4, pontos2: 3, pontos3: 0, pontos4: 0}
-    const segundo = {nome: 'Pickles', pontos1: 4, pontos2: 3, pontos3: 1, pontos4: 0}
-    const terceiro = {nome: 'Relâmpago', pontos1: 3, pontos2: 3, pontos3: 0, pontos4: 0}
-    const quarto = {nome: 'Ruanh', pontos1: 3, pontos2: 4, pontos3: 0, pontos4: 0}
-    const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1, pontos3: 0, pontos4: 0}
-    const sexto = {nome: 'Kennyd', pontos1: 2, pontos2: 4, pontos3: 0, pontos4: 0}
+    const primeiro = {nome: 'Jean', pontos1: 4, pontos2: 3, pontos3: 2, pontos4: 0}
+    const segundo = {nome: 'Pickles', pontos1: 4, pontos2: 3, pontos3: 3, pontos4: 0}
+    const terceiro = {nome: 'Relâmpago', pontos1: 3, pontos2: 3, pontos3: 2, pontos4: 0}
+    const quarto = {nome: 'Ruanh', pontos1: 3, pontos2: 4, pontos3: 2, pontos4: 0}
+    const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1, pontos3: 3, pontos4: 0}
+    const sexto = {nome: 'Kennyd', pontos1: 2, pontos2: 4, pontos3: 2, pontos4: 0}
     const setimo = {nome: 'Ademiro', pontos1: 2, pontos2: 5, pontos3: 0, pontos4: 0}
     const oitavo = {nome: 'Victor', pontos1: 0, pontos2: 0, pontos3: 0, pontos4: 0}
     const nono = {nome: 'Tony', pontos1: 2, pontos2: 4, pontos3: 0, pontos4: 0}
@@ -96,22 +96,22 @@ export default function Planilha(){
                             <p>Rodada 3</p>
                             <table className="tabelaPLANILHA">
                                 <tr>
-                                    <td className="destaque">{primeiro.nome}</td> <td>LLL</td> <td>FUR</td> <td>LIB</td> <td>RED</td> <td>PNG</td> <td className="destaque">Pontos: {primeiro.pontos3}</td>
+                                    <td className="destaque">{primeiro.nome}</td> <td>LLL</td> <td id="win">FUR</td> <td>LIB</td> <td id="win">RED</td> <td>PNG</td> <td className="destaque">Pontos: {primeiro.pontos3}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{segundo.nome}</td> <td id="win">KBM</td> <td>FUR</td> <td>LIB</td> <td>RED</td> <td>PNG</td> <td className="destaque">Pontos: {segundo.pontos3}</td>
+                                    <td className="destaque">{segundo.nome}</td> <td id="win">KBM</td> <td id="win">FUR</td> <td>LIB</td> <td id="win">RED</td> <td>PNG</td> <td className="destaque">Pontos: {segundo.pontos3}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{terceiro.nome}</td> <td>LLL</td> <td>FUR</td> <td>LIB</td> <td>RED</td> <td>PNG</td> <td className="destaque">Pontos: {terceiro.pontos3}</td>
+                                    <td className="destaque">{terceiro.nome}</td> <td>LLL</td> <td id="win">FUR</td> <td>LIB</td> <td id="win">RED</td> <td>PNG</td> <td className="destaque">Pontos: {terceiro.pontos3}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quarto.nome}</td> <td>LLL</td> <td>FUR</td> <td>LIB</td> <td>RED</td> <td>PNG</td> <td className="destaque">Pontos: {quarto.pontos3}</td>
+                                    <td className="destaque">{quarto.nome}</td> <td>LLL</td> <td id="win">FUR</td> <td>LIB</td> <td id="win">RED</td> <td>PNG</td> <td className="destaque">Pontos: {quarto.pontos3}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quinto.nome}</td> <td>LLL</td> <td>FUR</td> <td>FLA</td> <td>RED</td> <td>RNG</td> <td className="destaque">Pontos: {quinto.pontos3}</td>
+                                    <td className="destaque">{quinto.nome}</td> <td>LLL</td> <td id="win">FUR</td> <td id="win">FLA</td> <td id="win">RED</td> <td>RNG</td> <td className="destaque">Pontos: {quinto.pontos3}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{sexto.nome}</td> <td>LLL</td> <td>FUR</td> <td>LIB</td> <td>RED</td> <td>PNG</td> <td className="destaque">Pontos: {sexto.pontos3}</td>
+                                    <td className="destaque">{sexto.nome}</td> <td>LLL</td> <td id="win">FUR</td> <td>LIB</td> <td id="win">RED</td> <td>PNG</td> <td className="destaque">Pontos: {sexto.pontos3}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{setimo.nome}</td> <td>-</td> <td>PT2</td> <td>PT3</td> <td>PT4</td> <td>pt5</td> <td className="destaque">Pontos: {setimo.pontos3}</td>
