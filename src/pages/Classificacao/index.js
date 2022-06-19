@@ -12,12 +12,12 @@ import red from '../Rodadas/logos/red.png';
 import rng from '../Rodadas/logos/rng.png';
 
 export default function Classificacao(){
-    const primeiro = {nome: 'Pickles', pontos: 11, posicao: 1}
-    const segundo = {nome: 'Jean', pontos: 10, posicao: 2}
-    const terceiro = {nome: 'Ruanh', pontos: 10, posicao: 2}
-    const quarto = {nome: 'Relâmpago', pontos: 9, posicao: 3}
-    const quinto = {nome: 'Kennyd', pontos: 9, posicao: 3}
-    const sexto = {nome: 'Brener', pontos: 8, posicao: 4}
+    const primeiro = {nome: 'Pickles', pontos: 12, posicao: 1}
+    const segundo = {nome: 'Jean', pontos: 11, posicao: 2}
+    const terceiro = {nome: 'Ruanh', pontos: 11, posicao: 2}
+    const quarto = {nome: 'Relâmpago', pontos: 10, posicao: 3}
+    const quinto = {nome: 'Kennyd', pontos: 9, posicao: 4}
+    const sexto = {nome: 'Brener', pontos: 9, posicao: 4}
     const setimo = {nome: 'Ademiro', pontos: 7, posicao: 5}
     const oitavo = {nome: 'Tony', pontos: 6, posicao: 6}
 
