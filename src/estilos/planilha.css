@@ -55,7 +55,12 @@ div.totalPontos
 
 div.totalPontos > p, div.totalPontos > p > strong, div.totalPontos > i
 {
-    color: var(--cor2);
+    color: #808080;
+}
+
+div.totalPontos > i
+{
+    font-size: 0.7em;
 }
 
 /* Responsividade */
