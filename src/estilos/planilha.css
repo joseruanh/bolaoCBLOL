@@ -48,6 +48,16 @@ table.tabelaPLANILHA > td
 }
 #win{color: rgb(19, 110, 19);} #loss{color: rgb(145, 0, 0);}
 
+div.totalPontos
+{
+    text-align: right;
+}
+
+div.totalPontos > p, div.totalPontos > p > strong, div.totalPontos > i
+{
+    color: var(--cor2);
+}
+
 /* Responsividade */
 
 @media (max-width:700px)
