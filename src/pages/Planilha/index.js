@@ -22,6 +22,8 @@ export default function Planilha(){
     var victor = oitavo.pontos1 + oitavo.pontos2 + oitavo.pontos3 + oitavo.pontos4;
     var tony = nono.pontos1 + nono.pontos2 + nono.pontos3 + nono.pontos4;
 
+    console.log(`Jean: ${jean} | Pickles: ${pickles} | Relâmpago: ${relampago} | Ruanh: ${ruanh} | Brener: ${brener} | Kennyd: ${kennyd} | Ademiro: ${ademiro} | Victor: ${victor} | Tony: ${tony}`)
+
     return(
         <main>
             <div className="topo">
