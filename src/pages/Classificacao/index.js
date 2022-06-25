@@ -26,34 +26,34 @@ export default function Classificacao(){
         a.innerHTML = `
         <table class="tabelaCBLOL">
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${fur}" class="logoCLASSIFICACAO"/> </td> <td> 3V | 0D</td>
+                <td class="destaque1">1</td><td> <img src="${fur}" class="logoCLASSIFICACAO"/> </td> <td> 4V | 0D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${red}" class="logoCLASSIFICACAO"/> </td> <td> 3V | 0D</td>
+                <td class="destaque1">2</td><td> <img src="${png}" class="logoCLASSIFICACAO"/> </td> <td> 3V | 1D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">3</td><td> <img src="${png}" class="logoCLASSIFICACAO"/> </td> <td> 2V | 1D</td>
+                <td class="destaque1">2</td><td> <img src="${red}" class="logoCLASSIFICACAO"/> </td> <td> 3V | 1D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">3</td><td> <img src="${kbm}" class="logoCLASSIFICACAO"/> </td> <td> 2V | 1D</td>
+                <td class="destaque1">3</td><td> <img src="${fla}" class="logoCLASSIFICACAO"/> </td> <td> 2V | 2D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">5</td><td> <img src="${fla}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 2D</td>
+                <td class="destaque1">3</td><td> <img src="${net}" class="logoCLASSIFICACAO"/> </td> <td> 2V | 2D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">5</td><td> <img src="${net}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 2D</td>
+                <td class="destaque1">3</td><td> <img src="${lll}" class="logoCLASSIFICACAO"/> </td> <td> 2V | 2D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">5</td><td> <img src="${lll}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 2D</td>
+                <td class="destaque1">3</td><td> <img src="${kbm}" class="logoCLASSIFICACAO"/> </td> <td> 2V | 2D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">5</td><td> <img src="${itz}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 2D</td>
+                <td class="destaque1">8</td><td> <img src="${itz}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 3D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">5</td><td> <img src="${lib}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 2D</td>
+                <td class="destaque1">8</td><td> <img src="${lib}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 3D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">10</td><td> <img src="${rng}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 3D</td>
+                <td class="destaque1">10</td><td> <img src="${rng}" class="logoCLASSIFICACAO"/> </td> <td> 0V | 4D</td>
             </tr>
         </table>
         `
