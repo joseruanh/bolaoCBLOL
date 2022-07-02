@@ -6,9 +6,9 @@ export default function Planilha(){
     const segundo = {nome: 'Pickles', pontos1: 4, pontos2: 3, pontos3: 4, pontos4: 5, pontos5: 3, pontos6: 3, pontos7: 0, pontos8: 0}
     const terceiro = {nome: 'Relâmpago', pontos1: 3, pontos2: 3, pontos3: 3, pontos4: 3, pontos5: 3, pontos6: 3, pontos7: 0, pontos8: 0}
     const quarto = {nome: 'Ruanh', pontos1: 3, pontos2: 4, pontos3: 3, pontos4: 4, pontos5: 3, pontos6: 3, pontos7: 0, pontos8: 0}
-    const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1, pontos3: 3, pontos4: 3, pontos5: 2, pontos6: 1, pontos7: 0, pontos8: 0}
+    const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1, pontos3: 3, pontos4: 3, pontos5: 2, pontos6: 1, pontos7: 1, pontos8: 0}
     const sexto = {nome: 'Kennyd', pontos1: 2, pontos2: 4, pontos3: 3, pontos4: 0, pontos5: 3, pontos6: 3, pontos7: 0, pontos8: 0}
-    const setimo = {nome: 'Ademiro', pontos1: 2, pontos2: 5, pontos3: 0, pontos4: 2, pontos5: 2, pontos6: 3, pontos7: 0, pontos8: 0}
+    const setimo = {nome: 'Ademiro', pontos1: 2, pontos2: 5, pontos3: 0, pontos4: 2, pontos5: 2, pontos6: 3, pontos7: 1, pontos8: 0}
     const oitavo = {nome: 'Tony', pontos1: 2, pontos2: 4, pontos3: 0, pontos4: 3, pontos5: 0, pontos6: 3, pontos7: 0, pontos8: 0}
 
     var jean = primeiro.pontos1 + primeiro.pontos2 + primeiro.pontos3 + primeiro.pontos4 + primeiro.pontos5 + primeiro.pontos6 + primeiro.pontos7 + primeiro.pontos8;
@@ -242,13 +242,13 @@ export default function Planilha(){
                                     <td className="destaque">{quarto.nome}</td> <td>FLA</td> <td>LLL</td> <td>RED</td> <td>PNG</td> <td>LIB</td> <td className="destaque">Pontos: {quarto.pontos7}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quinto.nome}</td> <td>NET</td> <td>LLL</td> <td>RED</td> <td>FUR</td> <td>ITZ</td> <td className="destaque">Pontos: {quinto.pontos7}</td>
+                                    <td className="destaque">{quinto.nome}</td> <td id="win">NET</td> <td>LLL</td> <td>RED</td> <td>FUR</td> <td>ITZ</td> <td className="destaque">Pontos: {quinto.pontos7}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{sexto.nome}</td> <td>FLA</td> <td>LLL</td> <td>RED</td> <td>PNG</td> <td>LIB</td> <td className="destaque">Pontos: {sexto.pontos7}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{setimo.nome}</td> <td>NET</td> <td>LLL</td> <td>KBM</td> <td>FUR</td> <td>LIB</td> <td className="destaque">Pontos: {setimo.pontos7}</td>
+                                    <td className="destaque">{setimo.nome}</td> <td id="win">NET</td> <td>LLL</td> <td>KBM</td> <td>FUR</td> <td>LIB</td> <td className="destaque">Pontos: {setimo.pontos7}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{oitavo.nome}</td> <td>FLA</td> <td>LLL</td> <td>RED</td> <td>PNG</td> <td>LIB</td> <td className="destaque">Pontos: {oitavo.pontos7}</td>
