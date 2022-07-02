@@ -12,48 +12,48 @@ import red from '../Rodadas/logos/red.png';
 import rng from '../Rodadas/logos/rng.png';
 
 export default function Classificacao(){
-    const primeiro = {nome: 'Pickles', pontos: 22, posicao: 1}
-    const segundo = {nome: 'Ruanh', pontos: 20, posicao: 2}
-    const terceiro = {nome: 'Jean', pontos: 20, posicao: 2}
-    const quarto = {nome: 'Relâmpago', pontos: 18, posicao: 3}
-    const quinto = {nome: 'Kennyd', pontos: 15, posicao: 4}
-    const sexto = {nome: 'Brener', pontos: 14, posicao: 5}
-    const setimo = {nome: 'Ademiro', pontos: 14, posicao: 5}
-    const oitavo = {nome: 'Tony', pontos: 12, posicao: 6}
+    const primeiro = {nome: 'Pickles', pontos: 25, posicao: 1}
+    const segundo = {nome: 'Ruanh', pontos: 24, posicao: 2}
+    const terceiro = {nome: 'Jean', pontos: 23, posicao: 3}
+    const quarto = {nome: 'Relâmpago', pontos: 22, posicao: 4}
+    const quinto = {nome: 'Kennyd', pontos: 19, posicao: 5}
+    const sexto = {nome: 'Brener', pontos: 17, posicao: 6}
+    const setimo = {nome: 'Ademiro', pontos: 17, posicao: 6}
+    const oitavo = {nome: 'Tony', pontos: 16, posicao: 7}
 
     function cblol(){
         let a = window.document.getElementById('mostraTabela')
         a.innerHTML = `
         <table class="tabelaCBLOL">
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${fur}" class="logoCLASSIFICACAO"/> </td> <td> 5V | 1D</td>
+                <td class="destaque1">1</td><td> <img src="${red}" class="logoCLASSIFICACAO"/> </td> <td> 6V | 1D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${red}" class="logoCLASSIFICACAO"/> </td> <td> 5V | 1D</td>
+                <td class="destaque1">2</td><td> <img src="${fur}" class="logoCLASSIFICACAO"/> </td> <td> 5V | 2D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">3</td><td> <img src="${png}" class="logoCLASSIFICACAO"/> </td> <td> 4V | 2D</td>
+                <td class="destaque1">2</td><td> <img src="${png}" class="logoCLASSIFICACAO"/> </td> <td> 5V | 2D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">4</td><td> <img src="${fla}" class="logoCLASSIFICACAO"/> </td> <td> 3V | 3D</td>
+                <td class="destaque1">4</td><td> <img src="${lll}" class="logoCLASSIFICACAO"/> </td> <td> 4V | 3D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">4</td><td> <img src="${lll}" class="logoCLASSIFICACAO"/> </td> <td> 3V | 3D</td>
+                <td class="destaque1">4</td><td> <img src="${lib}" class="logoCLASSIFICACAO"/> </td> <td> 4V | 3D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">4</td><td> <img src="${kbm}" class="logoCLASSIFICACAO"/> </td> <td> 3V | 3D</td>
+                <td class="destaque1">6</td><td> <img src="${fla}" class="logoCLASSIFICACAO"/> </td> <td> 3V | 4D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">4</td><td> <img src="${lib}" class="logoCLASSIFICACAO"/> </td> <td> 3V | 3D</td>
+                <td class="destaque1">6</td><td> <img src="${net}" class="logoCLASSIFICACAO"/> </td> <td> 3V | 4D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">8</td><td> <img src="${net}" class="logoCLASSIFICACAO"/> </td> <td> 2V | 4D</td>
+                <td class="destaque1">6</td><td> <img src="${kbm}" class="logoCLASSIFICACAO"/> </td> <td> 3V | 4D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">9</td><td> <img src="${rng}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 5D</td>
+                <td class="destaque1">9</td><td> <img src="${rng}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 6D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">9</td><td> <img src="${itz}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 5D</td>
+                <td class="destaque1">9</td><td> <img src="${itz}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 6D</td>
             </tr>
         </table>
         `
