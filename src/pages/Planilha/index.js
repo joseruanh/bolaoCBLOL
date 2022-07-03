@@ -262,7 +262,7 @@ export default function Planilha(){
                             <p>Rodada 8</p>
                             <table className="tabelaPLANILHA">
                                 <tr>
-                                    <td className="destaque">{primeiro.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {primeiro.pontos8}</td>
+                                    <td className="destaque">{primeiro.nome}</td> <td>KBM</td> <td>RED</td> <td>PNG</td> <td>NET</td> <td>FUR</td> <td className="destaque">Pontos: {primeiro.pontos8}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{segundo.nome}</td> <td>KBM</td> <td>RED</td> <td>PNG</td> <td>LLL</td> <td>FUR</td> <td className="destaque">Pontos: {segundo.pontos8}</td>
