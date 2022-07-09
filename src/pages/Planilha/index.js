@@ -302,28 +302,28 @@ export default function Planilha(){
                             <p>Rodada 9</p>
                             <table className="tabelaPLANILHA">
                                 <tr>
-                                    <td className="destaque">{primeiro.nome}</td> <td>pt1</td> <td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td>    <td className="destaque">Pontos: {primeiro.pontos9}</td>
+                                    <td className="destaque">{primeiro.nome}</td> <td>RED</td> <td>FUR</td><td>LIB</td><td>PNG</td><td>KBM</td>    <td className="destaque">Pontos: {primeiro.pontos9}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{segundo.nome}</td> <td>pt1</td> <td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td> <td className="destaque">Pontos: {segundo.pontos9}</td>
+                                    <td className="destaque">{segundo.nome}</td> <td>RED</td> <td>LLL</td><td>LIB</td><td>PNG</td><td>KBM</td> <td className="destaque">Pontos: {segundo.pontos9}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{terceiro.nome}</td> <td>pt1</td> <td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td> <td className="destaque">Pontos: {terceiro.pontos9}</td>
+                                    <td className="destaque">{terceiro.nome}</td> <td>RED</td> <td>LLL</td><td>LIB</td><td>PNG</td><td>KBM</td> <td className="destaque">Pontos: {terceiro.pontos9}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quarto.nome}</td> <td>pt1</td> <td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td> <td className="destaque">Pontos: {quarto.pontos9}</td>
+                                    <td className="destaque">{quarto.nome}</td> <td>RED</td> <td>FUR</td><td>LIB</td><td>PNG</td><td>KBM</td> <td className="destaque">Pontos: {quarto.pontos9}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{quinto.nome}</td> <td>pt1</td> <td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td> <td className="destaque">Pontos: {quinto.pontos9}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{sexto.nome}</td> <td>pt1</td> <td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td> <td className="destaque">Pontos: {sexto.pontos9}</td>
+                                    <td className="destaque">{sexto.nome}</td> <td>RED</td> <td>FUR</td><td>LIB</td><td>PNG</td><td>KBM</td> <td className="destaque">Pontos: {sexto.pontos9}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{setimo.nome}</td> <td>pt1</td> <td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td> <td className="destaque">Pontos: {setimo.pontos9}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{oitavo.nome}</td> <td>pt1</td> <td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td> <td className="destaque">Pontos: {oitavo.pontos9}</td>
+                                    <td className="destaque">{oitavo.nome}</td> <td>RED</td> <td>LLL</td><td>LIB</td><td>PNG</td><td>KBM</td> <td className="destaque">Pontos: {oitavo.pontos9}</td>
                                 </tr>
                             </table>
                         </div>
