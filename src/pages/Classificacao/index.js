@@ -12,14 +12,14 @@ import red from '../Rodadas/logos/red.png';
 import rng from '../Rodadas/logos/rng.png';
 
 export default function Classificacao(){
-    const primeiro = {nome: 'Pickles', pontos: 30, posicao: 1}
-    const segundo = {nome: 'Ruanh', pontos: 29, posicao: 2}
-    const terceiro = {nome: 'Jean', pontos: 27, posicao: 3}
-    const quarto = {nome: 'Relâmpago', pontos: 27, posicao: 3}
-    const quinto = {nome: 'Kennyd', pontos: 24, posicao: 4}
-    const sexto = {nome: 'Brener', pontos: 20, posicao: 5}
-    const setimo = {nome: 'Ademiro', pontos: 20, posicao: 5}
-    const oitavo = {nome: 'Tony', pontos: 20, posicao: 5}
+    const primeiro = {nome: 'Pickles', pontos: 34, posicao: 1}
+    const segundo = {nome: 'Ruanh', pontos: 34, posicao: 1}
+    const terceiro = {nome: 'Jean', pontos: 32, posicao: 2}
+    const quarto = {nome: 'Relâmpago', pontos: 31, posicao: 3}
+    const quinto = {nome: 'Kennyd', pontos: 29, posicao: 4}
+    const sexto = {nome: 'Brener', pontos: 23, posicao: 5}
+    const setimo = {nome: 'Tony', pontos: 24, posicao: 6}
+    const oitavo = {nome: 'Ademiro', pontos: 20, posicao: 7}
 
     function cblol(){
         let a = window.document.getElementById('mostraTabela')
