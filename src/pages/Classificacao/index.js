@@ -26,7 +26,7 @@ export default function Classificacao(){
         a.innerHTML = `
         <table class="tabelaCBLOL">
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${red}" class="logoCLASSIFICACAO"/> </td> <td> 7V | 1D</td>
+                <td class="destaque1">1</td><td> <img src="${red}" class="logoCLASSIFICACAO"/> </td> <td> 8V | 1D</td>
             </tr>
             <tr class="time">
                 <td class="destaque1">2</td><td> <img src="${fur}" class="logoCLASSIFICACAO"/> </td> <td> 6V | 2D</td>
@@ -53,7 +53,7 @@ export default function Classificacao(){
                 <td class="destaque1">9</td><td> <img src="${rng}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 7D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">9</td><td> <img src="${itz}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 7D</td>
+                <td class="destaque1">9</td><td> <img src="${itz}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 8D</td>
             </tr>
         </table>
         `
