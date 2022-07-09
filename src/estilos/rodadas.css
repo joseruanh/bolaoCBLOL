@@ -11,6 +11,8 @@ div.inicio
 div.jogos
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 90%;
     margin: auto;
     flex-wrap: wrap;
