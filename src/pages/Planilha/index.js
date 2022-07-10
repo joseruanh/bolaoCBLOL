@@ -352,7 +352,7 @@ export default function Planilha(){
                                     <td className="destaque">{sexto.nome}</td> <td>LLL</td> <td>LIB</td><td>FUR</td><td>ITZ</td><td>PNG</td> <td className="destaque">Pontos: {sexto.pontos10}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{setimo.nome}</td> <td>pt1</td> <td>pt2</td><td>pt3</td><td>pt4</td><td>pt5</td> <td className="destaque">Pontos: {setimo.pontos10}</td>
+                                    <td className="destaque">{setimo.nome}</td> <td>LLL</td> <td>LIB</td><td>KBM</td><td>RNG</td><td>RED</td> <td className="destaque">Pontos: {setimo.pontos10}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{oitavo.nome}</td> <td>LLL</td> <td>LIB</td><td>FUR</td><td>RNG</td><td>PNG</td> <td className="destaque">Pontos: {oitavo.pontos10}</td>
