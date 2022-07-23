@@ -10,16 +10,16 @@ export default function Planilha(){
     pontos11: 4, pontos12: 3, pontos13: 2, pontos14: 0}
     const terceiro = {nome: 'Relâmpago', pontos1: 3, pontos2: 3, pontos3: 3, pontos4: 3, 
     pontos5: 3, pontos6: 3, pontos7: 4, pontos8: 5, pontos9: 4, pontos10: 3,
-    pontos11: 4, pontos12: 3, pontos13: 2, pontos14: 0}
+    pontos11: 4, pontos12: 3, pontos13: 3, pontos14: 0}
     const quarto = {nome: 'Ruanh', pontos1: 3, pontos2: 4, pontos3: 3, pontos4: 4, 
     pontos5: 3, pontos6: 3, pontos7: 4, pontos8: 5, pontos9: 5, pontos10: 3,
-    pontos11: 5, pontos12: 3, pontos13: 1, pontos14: 0}
+    pontos11: 5, pontos12: 3, pontos13: 2, pontos14: 0}
     const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1, pontos3: 3, pontos4: 3, 
     pontos5: 2, pontos6: 1, pontos7: 3, pontos8: 3, pontos9: 3, pontos10: 3,
     pontos11: 3, pontos12: 3, pontos13: 1, pontos14: 0}
     const sexto = {nome: 'Kennyd', pontos1: 2, pontos2: 4, pontos3: 3, pontos4: 0, 
     pontos5: 3, pontos6: 3, pontos7: 4, pontos8: 5, pontos9: 5, pontos10: 3,
-    pontos11: 5, pontos12: 3, pontos13: 1, pontos14: 0}
+    pontos11: 5, pontos12: 3, pontos13: 2, pontos14: 0}
     const setimo = {nome: 'Ademiro', pontos1: 2, pontos2: 5, pontos3: 0, pontos4: 2, 
     pontos5: 2, pontos6: 3, pontos7: 3, pontos8: 3, pontos9: 0, pontos10: 0,
     pontos11: 4, pontos12: 2, pontos13: 2, pontos14: 0}
@@ -451,19 +451,19 @@ export default function Planilha(){
                                     <td className="destaque">{segundo.nome}</td> <td id="win">FUR</td> <td>PNG</td> <td id="win">NET</td> <td>FLA</td> <td>LIB</td> <td className="destaque">Pontos: {segundo.pontos13}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{terceiro.nome}</td> <td id="win">FUR</td> <td>PNG</td> <td id="win">NET</td> <td>FLA</td> <td>LLL</td> <td className="destaque">Pontos: {terceiro.pontos13}</td>
+                                    <td className="destaque">{terceiro.nome}</td> <td id="win">FUR</td> <td>PNG</td> <td id="win">NET</td> <td>FLA</td> <td id="win">LLL</td> <td className="destaque">Pontos: {terceiro.pontos13}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quarto.nome}</td> <td>RED</td> <td>PNG</td> <td id="win">NET</td> <td>FLA</td> <td>LLL</td> <td className="destaque">Pontos: {quarto.pontos13}</td>
+                                    <td className="destaque">{quarto.nome}</td> <td>RED</td> <td>PNG</td> <td id="win">NET</td> <td>FLA</td> <td id="win">LLL</td> <td className="destaque">Pontos: {quarto.pontos13}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{quinto.nome}</td> <td>RED</td> <td>PNG</td> <td id="win">NET</td> <td>FLA</td> <td>LIB</td> <td className="destaque">Pontos: {quinto.pontos13}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{sexto.nome}</td> <td>RED</td> <td>PNG</td> <td id="win">NET</td> <td>FLA</td> <td>LLL</td> <td className="destaque">Pontos: {sexto.pontos13}</td>
+                                    <td className="destaque">{sexto.nome}</td> <td>RED</td> <td>PNG</td> <td id="win">NET</td> <td>FLA</td> <td id="win">LLL</td> <td className="destaque">Pontos: {sexto.pontos13}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{setimo.nome}</td> <td>-</td> <td id="win">KBM</td> <td id="win">NET</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {setimo.pontos13}</td>
+                                    <td className="destaque">{setimo.nome}</td> <td>-</td> <td id="win">KBM</td> <td id="win">NET</td> <td>-</td> <td>-</td> <td className="destaque">Pontos: {setimo.pontos13}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{oitavo.nome}</td> <td>RED</td> <td>PNG</td> <td id="win">NET</td> <td>FLA</td> <td>LIB</td> <td className="destaque">Pontos: {oitavo.pontos13}</td>
