@@ -446,9 +446,9 @@ export default function Rodadas(){
                     <p>rodada 13</p>
 
                     <div className="partida">
-                        <div> <img src={red} className="logo"/></div>
+                        <div> <img src={red} className="logo"/>&#10060;</div>
                         <div> <img src={vs} className="logo" /> </div>
-                        <div><img src={fur} className="logo" /> </div>
+                        <div>&#10062;<img src={fur} className="logo" /> </div>
                     </div>
 
                     <div className="partida">
