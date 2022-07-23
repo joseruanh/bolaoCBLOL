@@ -4,44 +4,44 @@ import '../../estilos/planilha.css'
 export default function Planilha(){
     const primeiro = {nome: 'Jean', pontos1: 4, pontos2: 3, pontos3: 3, pontos4: 3, 
     pontos5: 3, pontos6: 4, pontos7: 3, pontos8: 4, pontos9: 5, pontos10: 2,
-    pontos11: 5, pontos12: 3}
+    pontos11: 5, pontos12: 3, pontos13: 0, pontos14: 0}
     const segundo = {nome: 'Pickles', pontos1: 4, pontos2: 3, pontos3: 4, pontos4: 5, 
     pontos5: 3, pontos6: 3, pontos7: 3, pontos8: 5, pontos9: 4, pontos10: 2,
-    pontos11: 4, pontos12: 3}
+    pontos11: 4, pontos12: 3, pontos13: 0, pontos14: 0}
     const terceiro = {nome: 'Relâmpago', pontos1: 3, pontos2: 3, pontos3: 3, pontos4: 3, 
     pontos5: 3, pontos6: 3, pontos7: 4, pontos8: 5, pontos9: 4, pontos10: 3,
-    pontos11: 4, pontos12: 3}
+    pontos11: 4, pontos12: 3, pontos13: 0, pontos14: 0}
     const quarto = {nome: 'Ruanh', pontos1: 3, pontos2: 4, pontos3: 3, pontos4: 4, 
     pontos5: 3, pontos6: 3, pontos7: 4, pontos8: 5, pontos9: 5, pontos10: 3,
-    pontos11: 5, pontos12: 3}
+    pontos11: 5, pontos12: 3, pontos13: 0, pontos14: 0}
     const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1, pontos3: 3, pontos4: 3, 
     pontos5: 2, pontos6: 1, pontos7: 3, pontos8: 3, pontos9: 3, pontos10: 3,
-    pontos11: 3, pontos12: 3}
+    pontos11: 3, pontos12: 3, pontos13: 0, pontos14: 0}
     const sexto = {nome: 'Kennyd', pontos1: 2, pontos2: 4, pontos3: 3, pontos4: 0, 
     pontos5: 3, pontos6: 3, pontos7: 4, pontos8: 5, pontos9: 5, pontos10: 3,
-    pontos11: 5, pontos12: 3}
+    pontos11: 5, pontos12: 3, pontos13: 0, pontos14: 0}
     const setimo = {nome: 'Ademiro', pontos1: 2, pontos2: 5, pontos3: 0, pontos4: 2, 
     pontos5: 2, pontos6: 3, pontos7: 3, pontos8: 3, pontos9: 0, pontos10: 0,
-    pontos11: 4, pontos12: 2}
+    pontos11: 4, pontos12: 2, pontos13: 0, pontos14: 0}
     const oitavo = {nome: 'Tony', pontos1: 2, pontos2: 4, pontos3: 0, pontos4: 3, 
     pontos5: 0, pontos6: 3, pontos7: 4, pontos8: 4, pontos9: 4, pontos10: 2,
-    pontos11: 5, pontos12: 3}
+    pontos11: 5, pontos12: 3, pontos13: 0, pontos14: 0}
 
-    var jean = primeiro.pontos1 + primeiro.pontos2 + primeiro.pontos3 + primeiro.pontos4 + primeiro.pontos5 + primeiro.pontos6 + primeiro.pontos7 + primeiro.pontos8 + primeiro.pontos9 + primeiro.pontos10 + primeiro.pontos11 + primeiro.pontos12;
+    var jean = primeiro.pontos1 + primeiro.pontos2 + primeiro.pontos3 + primeiro.pontos4 + primeiro.pontos5 + primeiro.pontos6 + primeiro.pontos7 + primeiro.pontos8 + primeiro.pontos9 + primeiro.pontos10 + primeiro.pontos11 + primeiro.pontos12 + primeiro.pontos13 + primeiro.pontos14;
 
-    var pickles = segundo.pontos1 + segundo.pontos2 + segundo.pontos3 + segundo.pontos4 + segundo.pontos5 + segundo.pontos6 + segundo.pontos7 + segundo.pontos8 + segundo.pontos9 + segundo.pontos10 + segundo.pontos11 + segundo.pontos12;
+    var pickles = segundo.pontos1 + segundo.pontos2 + segundo.pontos3 + segundo.pontos4 + segundo.pontos5 + segundo.pontos6 + segundo.pontos7 + segundo.pontos8 + segundo.pontos9 + segundo.pontos10 + segundo.pontos11 + segundo.pontos12 + segundo.pontos13 + segundo.pontos14;
 
-    var relampago = terceiro.pontos1 + terceiro.pontos2 + terceiro.pontos3 + terceiro.pontos4 + terceiro.pontos5 + terceiro.pontos6 + terceiro.pontos7 + terceiro.pontos8 + terceiro.pontos9 + terceiro.pontos10 + terceiro.pontos11 + terceiro.pontos12;
+    var relampago = terceiro.pontos1 + terceiro.pontos2 + terceiro.pontos3 + terceiro.pontos4 + terceiro.pontos5 + terceiro.pontos6 + terceiro.pontos7 + terceiro.pontos8 + terceiro.pontos9 + terceiro.pontos10 + terceiro.pontos11 + terceiro.pontos12 + terceiro.pontos13 + terceiro.pontos14;
 
-    var ruanh = quarto.pontos1 + quarto.pontos2 + quarto.pontos3 + quarto.pontos4 + quarto.pontos5 + quarto.pontos6 + quarto.pontos7 + quarto.pontos8 + quarto.pontos9 + quarto.pontos10 + quarto.pontos11 + quarto.pontos12;
+    var ruanh = quarto.pontos1 + quarto.pontos2 + quarto.pontos3 + quarto.pontos4 + quarto.pontos5 + quarto.pontos6 + quarto.pontos7 + quarto.pontos8 + quarto.pontos9 + quarto.pontos10 + quarto.pontos11 + quarto.pontos12 + quarto.pontos13 + quarto.pontos14;
 
-    var brener = quinto.pontos1 + quinto.pontos2 + quinto.pontos3 + quinto.pontos4 + quinto.pontos5 + quinto.pontos6 + quinto.pontos7 + quinto.pontos8 + quinto.pontos9 + quinto.pontos10 + quinto.pontos11 + quinto.pontos12;
+    var brener = quinto.pontos1 + quinto.pontos2 + quinto.pontos3 + quinto.pontos4 + quinto.pontos5 + quinto.pontos6 + quinto.pontos7 + quinto.pontos8 + quinto.pontos9 + quinto.pontos10 + quinto.pontos11 + quinto.pontos12 + quinto.pontos13 + quinto.pontos14;
 
-    var kennyd = sexto.pontos1 + sexto.pontos2 + sexto.pontos3 + sexto.pontos4 + sexto.pontos5 + sexto.pontos6 + sexto.pontos7 + sexto.pontos8 + sexto.pontos9 + sexto.pontos10 + sexto.pontos11 + sexto.pontos12;
+    var kennyd = sexto.pontos1 + sexto.pontos2 + sexto.pontos3 + sexto.pontos4 + sexto.pontos5 + sexto.pontos6 + sexto.pontos7 + sexto.pontos8 + sexto.pontos9 + sexto.pontos10 + sexto.pontos11 + sexto.pontos12 +  sexto.pontos13 +  sexto.pontos14;
 
-    var ademiro = setimo.pontos1 + setimo.pontos2 + setimo.pontos3 + setimo.pontos4 + setimo.pontos5 + setimo.pontos6 + setimo.pontos7 + setimo.pontos8 + setimo.pontos9 + setimo.pontos10 + setimo.pontos11 + setimo.pontos12;
+    var ademiro = setimo.pontos1 + setimo.pontos2 + setimo.pontos3 + setimo.pontos4 + setimo.pontos5 + setimo.pontos6 + setimo.pontos7 + setimo.pontos8 + setimo.pontos9 + setimo.pontos10 + setimo.pontos11 + setimo.pontos12 + setimo.pontos13 + setimo.pontos14;
 
-    var tony = oitavo.pontos1 + oitavo.pontos2 + oitavo.pontos3 + oitavo.pontos4 + oitavo.pontos5 + oitavo.pontos6 + oitavo.pontos7 + oitavo.pontos8 + oitavo.pontos9 + oitavo.pontos10 + oitavo.pontos11 + oitavo.pontos12;
+    var tony = oitavo.pontos1 + oitavo.pontos2 + oitavo.pontos3 + oitavo.pontos4 + oitavo.pontos5 + oitavo.pontos6 + oitavo.pontos7 + oitavo.pontos8 + oitavo.pontos9 + oitavo.pontos10 + oitavo.pontos11 + oitavo.pontos12 + oitavo.pontos13 + oitavo.pontos14;
 
     let total = `Jean: ${jean} | Pickles: ${pickles} | Relâmpago: ${relampago} | Ruanh: ${ruanh} | Brener: ${brener} | Kennyd: ${kennyd} | Ademiro: ${ademiro} | Tony: ${tony}`
 
@@ -435,6 +435,70 @@ export default function Planilha(){
                                 </tr>
                                 <tr>
                                     <td className="destaque">{oitavo.nome}</td> <td id="win">PNG</td> <td>RED</td> <td id="win">FUR</td> <td id="win">LLL</td> <td>FLA</td> <td className="destaque">Pontos: {oitavo.pontos12}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div className="pRodada">
+                        <div>
+                            <p>Rodada 13</p>
+                            <table className="tabelaPLANILHA">
+                                <tr>
+                                    <td className="destaque">{primeiro.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {primeiro.pontos13}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{segundo.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {segundo.pontos13}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{terceiro.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {terceiro.pontos13}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{quarto.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {quarto.pontos13}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{quinto.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {quinto.pontos13}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{sexto.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {sexto.pontos13}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{setimo.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {setimo.pontos13}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{oitavo.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {oitavo.pontos13}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div className="pRodada">
+                        <div>
+                            <p>Rodada 14</p>
+                            <table className="tabelaPLANILHA">
+                                <tr>
+                                    <td className="destaque">{primeiro.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {primeiro.pontos14}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{segundo.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {segundo.pontos14}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{terceiro.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {terceiro.pontos14}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{quarto.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {quarto.pontos14}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{quinto.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {quinto.pontos14}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{sexto.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {sexto.pontos14}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{setimo.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {setimo.pontos14}</td>
+                                </tr>
+                                <tr>
+                                    <td className="destaque">{oitavo.nome}</td> <td>pt1</td> <td>pt2</td> <td>pt3</td> <td>pt4</td> <td>pt5</td> <td className="destaque">Pontos: {oitavo.pontos14}</td>
                                 </tr>
                             </table>
                         </div>
