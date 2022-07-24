@@ -13,10 +13,10 @@ export default function Planilha(){
     pontos11: 4, pontos12: 3, pontos13: 3, pontos14: 4}
     const quarto = {nome: 'Ruanh', pontos1: 3, pontos2: 4, pontos3: 3, pontos4: 4, 
     pontos5: 3, pontos6: 3, pontos7: 4, pontos8: 5, pontos9: 5, pontos10: 3,
-    pontos11: 5, pontos12: 3, pontos13: 2, pontos14: 3}
+    pontos11: 5, pontos12: 3, pontos13: 2, pontos14: 4}
     const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1, pontos3: 3, pontos4: 3, 
     pontos5: 2, pontos6: 1, pontos7: 3, pontos8: 3, pontos9: 3, pontos10: 3,
-    pontos11: 3, pontos12: 3, pontos13: 1, pontos14: 4}
+    pontos11: 3, pontos12: 3, pontos13: 1, pontos14: 3}
     const sexto = {nome: 'Kennyd', pontos1: 2, pontos2: 4, pontos3: 3, pontos4: 0, 
     pontos5: 3, pontos6: 3, pontos7: 4, pontos8: 5, pontos9: 5, pontos10: 3,
     pontos11: 5, pontos12: 3, pontos13: 2, pontos14: 4}
