@@ -26,34 +26,34 @@ export default function Classificacao(){
         a.innerHTML = `
         <table class="tabelaCBLOL">
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${fur}" class="logoCLASSIFICACAO"/> </td> <td> 10V | 2D</td>
+                <td class="destaque1">1</td><td> <img src="${fur}" class="logoCLASSIFICACAO"/> </td> <td> 12V | 2D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">1</td><td> <img src="${png}" class="logoCLASSIFICACAO"/> </td> <td> 10V | 2D</td>
+                <td class="destaque1">2</td><td> <img src="${png}" class="logoCLASSIFICACAO"/> </td> <td> 11V | 3D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">3</td><td> <img src="${red}" class="logoCLASSIFICACAO"/> </td> <td> 6V | 6D</td>
+                <td class="destaque1">3</td><td> <img src="${red}" class="logoCLASSIFICACAO"/> </td> <td> 10V | 4D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">4</td><td> <img src="${net}" class="logoCLASSIFICACAO"/> </td> <td> 6V | 6D</td>
+                <td class="destaque1">4</td><td> <img src="${lll}" class="logoCLASSIFICACAO"/> </td> <td> 8V | 6D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">4</td><td> <img src="${lll}" class="logoCLASSIFICACAO"/> </td> <td> 6V | 6D</td>
+                <td class="destaque1">4</td><td> <img src="${kbm}" class="logoCLASSIFICACAO"/> </td> <td> 8V | 6D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">4</td><td> <img src="${kbm}" class="logoCLASSIFICACAO"/> </td> <td> 6V | 6D</td>
+                <td class="destaque1">6</td><td> <img src="${net}" class="logoCLASSIFICACAO"/> </td> <td> 7V | 7D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">4</td><td> <img src="${lib}" class="logoCLASSIFICACAO"/> </td> <td> 6V | 6D</td>
+                <td class="destaque1">7</td><td> <img src="${lib}" class="logoCLASSIFICACAO"/> </td> <td> 6V | 8D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">8</td><td> <img src="${fla}" class="logoCLASSIFICACAO"/> </td> <td> 4V | 8D</td>
+                <td class="destaque1">8</td><td> <img src="${fla}" class="logoCLASSIFICACAO"/> </td> <td> 4V | 10D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">9</td><td> <img src="${itz}" class="logoCLASSIFICACAO"/> </td> <td> 2V | 10D</td>
+                <td class="destaque1">9</td><td> <img src="${itz}" class="logoCLASSIFICACAO"/> </td> <td> 2V | 11D</td>
             </tr>
             <tr class="time">
-                <td class="destaque1">10</td><td> <img src="${rng}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 11D</td>
+                <td class="destaque1">10</td><td> <img src="${rng}" class="logoCLASSIFICACAO"/> </td> <td> 1V | 13D</td>
             </tr>
         </table>
         `
