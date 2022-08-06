@@ -582,6 +582,76 @@ export default function Rodadas(){
 
                 </div>
 
+                <div className="rodada">
+                    <p>rodada 17</p>
+
+                    <div className="partida">
+                        <div> <img src={fur} className="logo"/></div>
+                        <div> <img src={vs} className="logo" /> </div>
+                        <div><img src={fla} className="logo" /> </div>
+                    </div>
+
+                    <div className="partida">
+                        <div> <img src={red} className="logo"/></div>
+                        <div> <img src={vs} className="logo" /> </div>
+                        <div><img src={lib} className="logo" /> </div>
+                    </div>
+
+                    <div className="partida">
+                        <div> <img src={rng} className="logo"/></div>
+                        <div> <img src={vs} className="logo" /> </div>
+                        <div><img src={kbm} className="logo" /> </div>
+                    </div>
+
+                    <div className="partida">
+                        <div> <img src={net} className="logo"/></div>
+                        <div> <img src={vs} className="logo" /> </div>
+                        <div><img src={lll} className="logo" /> </div>
+                    </div>
+
+                    <div className="partida">
+                        <div> <img src={png} className="logo"/></div>
+                        <div> <img src={vs} className="logo" /> </div>
+                        <div><img src={itz} className="logo" /> </div>
+                    </div>
+
+                </div>
+
+                <div className="rodada">
+                    <p>rodada 18</p>
+
+                    <div className="partida">
+                        <div> <img src={kbm} className="logo"/></div>
+                        <div> <img src={vs} className="logo" /> </div>
+                        <div><img src={net} className="logo" /> </div>
+                    </div>
+
+                    <div className="partida">
+                        <div> <img src={fla} className="logo"/></div>
+                        <div> <img src={vs} className="logo" /> </div>
+                        <div><img src={png} className="logo" /> </div>
+                    </div>
+
+                    <div className="partida">
+                        <div> <img src={itz} className="logo"/></div>
+                        <div> <img src={vs} className="logo" /> </div>
+                        <div><img src={red} className="logo" /> </div>
+                    </div>
+
+                    <div className="partida">
+                        <div> <img src={lib} className="logo"/></div>
+                        <div> <img src={vs} className="logo" /> </div>
+                        <div><img src={rng} className="logo" /> </div>
+                    </div>
+
+                    <div className="partida">
+                        <div> <img src={lll} className="logo"/></div>
+                        <div> <img src={vs} className="logo" /> </div>
+                        <div><img src={fur} className="logo" /> </div>
+                    </div>
+
+                </div>
+
 
 
 
