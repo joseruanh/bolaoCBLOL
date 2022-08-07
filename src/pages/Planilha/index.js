@@ -5,7 +5,7 @@ export default function Planilha(){
     const primeiro = {nome: 'Jean', pontos1: 4, pontos2: 3, pontos3: 3, pontos4: 3, 
     pontos5: 3, pontos6: 4, pontos7: 3, pontos8: 4, pontos9: 5, pontos10: 2,
     pontos11: 5, pontos12: 3, pontos13: 2, pontos14: 5,
-    pontos15: 4, pontos16: 2, pontos17: 5, pontos18: 0}
+    pontos15: 4, pontos16: 2, pontos17: 5, pontos18: 1}
     const segundo = {nome: 'Pickles', pontos1: 4, pontos2: 3, pontos3: 4, pontos4: 5, 
     pontos5: 3, pontos6: 3, pontos7: 3, pontos8: 5, pontos9: 4, pontos10: 2,
     pontos11: 4, pontos12: 3, pontos13: 2, pontos14: 5,
@@ -13,23 +13,23 @@ export default function Planilha(){
     const terceiro = {nome: 'Relâmpago', pontos1: 3, pontos2: 3, pontos3: 3, pontos4: 3, 
     pontos5: 3, pontos6: 3, pontos7: 4, pontos8: 5, pontos9: 4, pontos10: 3,
     pontos11: 4, pontos12: 3, pontos13: 3, pontos14: 5,
-    pontos15: 4, pontos16: 1, pontos17: 5, pontos18: 0}
+    pontos15: 4, pontos16: 1, pontos17: 5, pontos18: 1}
     const quarto = {nome: 'Ruanh', pontos1: 3, pontos2: 4, pontos3: 3, pontos4: 4, 
     pontos5: 3, pontos6: 3, pontos7: 4, pontos8: 5, pontos9: 5, pontos10: 3,
     pontos11: 5, pontos12: 3, pontos13: 2, pontos14: 5,
-    pontos15: 3, pontos16: 3, pontos17: 5, pontos18: 0}
+    pontos15: 3, pontos16: 3, pontos17: 5, pontos18: 1}
     const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1, pontos3: 3, pontos4: 3, 
     pontos5: 2, pontos6: 1, pontos7: 3, pontos8: 3, pontos9: 3, pontos10: 3,
     pontos11: 3, pontos12: 3, pontos13: 1, pontos14: 3,
-    pontos15: 4, pontos16: 2, pontos17: 4, pontos18: 0}
+    pontos15: 4, pontos16: 2, pontos17: 4, pontos18: 1}
     const sexto = {nome: 'Kennyd', pontos1: 2, pontos2: 4, pontos3: 3, pontos4: 0, 
     pontos5: 3, pontos6: 3, pontos7: 4, pontos8: 5, pontos9: 5, pontos10: 3,
     pontos11: 5, pontos12: 3, pontos13: 2, pontos14: 5,
-    pontos15: 2, pontos16: 3, pontos17: 5, pontos18: 0}
+    pontos15: 2, pontos16: 3, pontos17: 5, pontos18: 1}
     const setimo = {nome: 'Ademiro', pontos1: 2, pontos2: 5, pontos3: 0, pontos4: 2, 
     pontos5: 2, pontos6: 3, pontos7: 3, pontos8: 3, pontos9: 0, pontos10: 0,
     pontos11: 4, pontos12: 2, pontos13: 2, pontos14: 3,
-    pontos15: 3, pontos16: 3, pontos17: 3, pontos18: 0}
+    pontos15: 3, pontos16: 3, pontos17: 3, pontos18: 1}
     const oitavo = {nome: 'Tony', pontos1: 2, pontos2: 4, pontos3: 0, pontos4: 3, 
     pontos5: 0, pontos6: 3, pontos7: 4, pontos8: 4, pontos9: 4, pontos10: 2,
     pontos11: 5, pontos12: 3, pontos13: 1, pontos14: 5,
@@ -616,25 +616,25 @@ export default function Planilha(){
                             <p>Rodada 18</p>
                             <table className="tabelaPLANILHA">
                                 <tr>
-                                    <td className="destaque">{primeiro.nome}</td> <td>KBM</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>LLL</td> <td className="destaque">Pontos: {primeiro.pontos18}</td>
+                                    <td className="destaque">{primeiro.nome}</td> <td id="win">KBM</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>LLL</td> <td className="destaque">Pontos: {primeiro.pontos18}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{segundo.nome}</td> <td>-</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>LLL</td> <td className="destaque">Pontos: {segundo.pontos18}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{terceiro.nome}</td> <td>KBM</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>LLL</td> <td className="destaque">Pontos: {terceiro.pontos18}</td>
+                                    <td className="destaque">{terceiro.nome}</td> <td id="win">KBM</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>LLL</td> <td className="destaque">Pontos: {terceiro.pontos18}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quarto.nome}</td> <td>KBM</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>FUR</td> <td className="destaque">Pontos: {quarto.pontos18}</td>
+                                    <td className="destaque">{quarto.nome}</td> <td id="win">KBM</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>FUR</td> <td className="destaque">Pontos: {quarto.pontos18}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quinto.nome}</td> <td>KBM</td> <td>FLA</td><td>RED</td> <td>LIB</td> <td>LLL</td> <td className="destaque">Pontos: {quinto.pontos18}</td>
+                                    <td className="destaque">{quinto.nome}</td> <td id="win">KBM</td> <td>FLA</td><td>RED</td> <td>LIB</td> <td>LLL</td> <td className="destaque">Pontos: {quinto.pontos18}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{sexto.nome}</td> <td>KBM</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>FUR</td> <td className="destaque">Pontos: {sexto.pontos18}</td>
+                                    <td className="destaque">{sexto.nome}</td> <td id="win">KBM</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>FUR</td> <td className="destaque">Pontos: {sexto.pontos18}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{setimo.nome}</td> <td>KBM</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>FUR</td> <td className="destaque">Pontos: {setimo.pontos18}</td>
+                                    <td className="destaque">{setimo.nome}</td> <td id="win">KBM</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>FUR</td> <td className="destaque">Pontos: {setimo.pontos18}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{oitavo.nome}</td> <td>-</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>FUR</td> <td className="destaque">Pontos: {oitavo.pontos18}</td>
