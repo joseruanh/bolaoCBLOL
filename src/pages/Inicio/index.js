@@ -22,7 +22,7 @@ export default function Inicio(){
             <p className="tituloNoticia">Zé Ruã ganha bolão e recebe um enorme parabéns</p>
             <table class="tabelaCBLOL">
                 <tr class="time">
-                    <td class="destaque1">1</td><td>Ruanh</td><td class="destaque">67 pontos</td>
+                    <td class="destaque1">1</td><td>Ruanh</td><td class="destaque">66 pontos</td>
                 </tr>
                 <tr class="time">
                     <td class="destaque1">2</td><td>Jean</td><td class="destaque">63 pontos</td>
