@@ -19,6 +19,37 @@ export default function Inicio(){
            </div>
 
            <div className="noticia">
+            <p className="tituloNoticia">Zé Ruã ganha bolão e recebe um enorme parabéns</p>
+            <table class="tabelaCBLOL">
+                <tr class="time">
+                    <td class="destaque1">1</td><td>Ruanh</td><td class="destaque">67 pontos</td>
+                </tr>
+                <tr class="time">
+                    <td class="destaque1">2</td><td>Jean</td><td class="destaque">63 pontos</td>
+                </tr>
+                <tr class="time">
+                    <td class="destaque1">3</td><td>Mr Pickles</td><td class="destaque">62 pontos</td>
+                </tr>
+                <tr class="time">
+                    <td class="destaque1">4</td><td>Relâmpago</td><td class="destaque">62 pontos</td>
+                </tr>
+                <tr class="time">
+                    <td class="destaque1">5</td><td>Kennyd</td><td class="destaque">60 pontos</td>
+                </tr>
+                <tr class="time">
+                    <td class="destaque1">6</td><td>Tony</td><td class="destaque">52 pontos</td>
+                </tr>
+                <tr class="time">
+                    <td class="destaque1">7</td><td>Brener</td><td class="destaque">50 pontos</td>
+                </tr>
+                <tr class="time">
+                    <td class="destaque1">8</td><td>Ademiro</td><td class="destaque">43 pontos</td>
+                </tr>
+            </table>
+
+           </div>
+
+           <div className="noticia">
                     <p className="tituloNoticia">
                         RNG vence a T1 e se torna tricampeã do MSI
                     </p>
