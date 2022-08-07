@@ -21,7 +21,7 @@ export default function Planilha(){
     const quinto = {nome: 'Brener', pontos1: 4, pontos2: 1, pontos3: 3, pontos4: 3, 
     pontos5: 2, pontos6: 1, pontos7: 3, pontos8: 3, pontos9: 3, pontos10: 3,
     pontos11: 3, pontos12: 3, pontos13: 1, pontos14: 3,
-    pontos15: 4, pontos16: 2, pontos17: 4, pontos18: 1}
+    pontos15: 4, pontos16: 2, pontos17: 4, pontos18: 2}
     const sexto = {nome: 'Kennyd', pontos1: 2, pontos2: 4, pontos3: 3, pontos4: 0, 
     pontos5: 3, pontos6: 3, pontos7: 4, pontos8: 5, pontos9: 5, pontos10: 3,
     pontos11: 5, pontos12: 3, pontos13: 2, pontos14: 5,
@@ -628,7 +628,7 @@ export default function Planilha(){
                                     <td className="destaque">{quarto.nome}</td> <td id="win">KBM</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>FUR</td> <td className="destaque">Pontos: {quarto.pontos18}</td>
                                 </tr>
                                 <tr>
-                                    <td className="destaque">{quinto.nome}</td> <td id="win">KBM</td> <td>FLA</td><td>RED</td> <td>LIB</td> <td>LLL</td> <td className="destaque">Pontos: {quinto.pontos18}</td>
+                                    <td className="destaque">{quinto.nome}</td> <td id="win">KBM</td> <td id="win">FLA</td><td>RED</td> <td>LIB</td> <td>LLL</td> <td className="destaque">Pontos: {quinto.pontos18}</td>
                                 </tr>
                                 <tr>
                                     <td className="destaque">{sexto.nome}</td> <td id="win">KBM</td> <td>PNG</td><td>RED</td> <td>LIB</td> <td>FUR</td> <td className="destaque">Pontos: {sexto.pontos18}</td>
